@@ -58,14 +58,14 @@
     <repositories>
         <repository>
             <id>myMavenRepo.read</id>
-            <url>http://10.0.0.100/mymaven/</url>
+            <url>file://mymaven/repo/</url>
         </repository>
     </repositories>
 
     <distributionManagement>
         <repository>
             <id>myMavenRepo.write</id>
-            <url>ftp://10.0.0.100/pub/</url>
+            <url>file://mymaven/repo/</url>
         </repository>
     </distributionManagement>
 
